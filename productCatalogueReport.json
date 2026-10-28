@@ -1,0 +1,146 @@
+{
+  "source": "Open Food Facts",
+  "country": "South Africa",
+  "version": 1,
+  "status": "complete",
+  "complete": true,
+  "readyForAutocomplete": true,
+  "sourceUrl": "https://static.openfoodfacts.org/data/en.openfoodfacts.org.products.csv.gz",
+  "countryFilter": {
+    "field": "countries_tags",
+    "equals": "en:south-africa",
+    "meaning": "Products tagged as sold in South Africa, including imported/multi-country products."
+  },
+  "totalRecordsReportedByApi": null,
+  "totalRecordsDownloaded": 4879512,
+  "countryRecordsMatched": 10554,
+  "totalProductsRetained": 9751,
+  "recordsRejected": 803,
+  "duplicateRecordsRemoved": 0,
+  "productsMissingBrands": 2380,
+  "productsMissingQuantities": 7113,
+  "productsMissingCategories": 8859,
+  "rejectionReasons": {
+    "missingOrNonmeaningfulName": 801,
+    "packagingTextInsteadOfName": 1,
+    "obviousTestOrJunkName": 1
+  },
+  "apiFailures": [],
+  "incompletePages": [],
+  "warnings": [
+    "The nightly worldwide snapshot may differ from the live API.",
+    "Product text is crowdsourced and may contain errors.",
+    "No barcode check-digit repair, translation or name generation is performed.",
+    "Some source quantities contained flavour/description text; invalid optional quantities were cleared, not guessed."
+  ],
+  "licence": {
+    "database": "ODbL-1.0",
+    "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "contents": "https://opendatacommons.org/licenses/dbcl/1-0/"
+  },
+  "downloadMethod": "Official nightly worldwide gzip CSV (tab-separated); streamed decompression and local country filtering.",
+  "compressedDownloadBytes": 1524125031,
+  "retrievedAt": "2026-10-28T12:46:27.846Z",
+  "processedAt": "2026-10-28T12:54:33.055Z",
+  "sourceLastModified": "Wed, 28 Oct 2026 09:05:12 GMT",
+  "sourceEtag": "\"2b5a11eade64e799770f5b54ffff56ce-291\"",
+  "conflictingBarcodeIds": 0,
+  "finalJsonFileSizeBytes": 1043245,
+  "sampleProducts": [
+    {
+      "id": "6009214229690",
+      "name": "Asian Thai Green Curry Soup",
+      "brand": "Woolworths",
+      "quantity": "",
+      "category": ""
+    },
+    {
+      "id": "7640110709160",
+      "name": "cabderal",
+      "brand": "",
+      "quantity": "",
+      "category": ""
+    },
+    {
+      "id": "6004405012051",
+      "name": "citro soda",
+      "brand": "",
+      "quantity": "",
+      "category": ""
+    },
+    {
+      "id": "6001299027222",
+      "name": "Double cream plain yoghurt",
+      "brand": "Clover",
+      "quantity": "150g",
+      "category": ""
+    },
+    {
+      "id": "6001008646270",
+      "name": "Garlic Bread",
+      "brand": "Spar",
+      "quantity": "",
+      "category": ""
+    },
+    {
+      "id": "4007011000834",
+      "name": "ITAU MAIZE",
+      "brand": "",
+      "quantity": "",
+      "category": ""
+    },
+    {
+      "id": "6009803739050",
+      "name": "Mama's Popcorn Cream Cheese & Chives Flavoured",
+      "brand": "Elzea Snacks",
+      "quantity": "50g",
+      "category": "Snacks, Snacks salés, Amuse-gueules, Popcorn, Popcorn salé"
+    },
+    {
+      "id": "6001275100659",
+      "name": "Oatso Easy Instant Oats Sachets Caramel Flavour",
+      "brand": "Jungle",
+      "quantity": "10x50g",
+      "category": "Instant oats"
+    },
+    {
+      "id": "6009544951230",
+      "name": "Protein Bar salted caramel flavour",
+      "brand": "",
+      "quantity": "",
+      "category": ""
+    },
+    {
+      "id": "6009681760276",
+      "name": "Sinupot",
+      "brand": "",
+      "quantity": "",
+      "category": ""
+    },
+    {
+      "id": "0700083684028",
+      "name": "Super Maize Meal",
+      "brand": "Idlani",
+      "quantity": "10kg",
+      "category": "Plant-based foods and beverages, Plant-based foods, Cereals and potatoes, Seeds, Cereals and their products, Flours, Cereal flours, Cereal grains, Corn"
+    },
+    {
+      "id": "6009708968876",
+      "name": "Whey",
+      "brand": "Nutritech",
+      "quantity": "",
+      "category": ""
+    }
+  ],
+  "filterVerified": true,
+  "physicalLinesRead": 4879513,
+  "catalogueFileCreated": true,
+  "readyForPublicDistribution": false,
+  "distributionNote": "Data preparation complete, but attribution/share-alike and a derivative database download/reconstruction offer must be arranged before public app distribution.",
+  "invalidOptionalQuantitiesCleared": 76,
+  "productsWithNamesOver160Characters": 0,
+  "processingStages": [
+    "Complete streamed worldwide CSV/gzip pass with country filter",
+    "Conservative quality refinement of retained source records; no additional download"
+  ]
+}
